@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #FCE6FF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.filler {
+  display: none;
+}
+
+.header:hover .filler{
+  position: fixed;
+  display: inline-block;
+  width: 80%;
+  float: left;
+}
+
+.header {
+  position: fixed;
+  background-color: #a83ae8;
+  border-bottom: solid 2px #5d1aa1;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 15px;
+  overflow: hidden;
+}
+
+.header:hover {
+  border-bottom: solid 5px #5d1aa1;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  top: 0;
+  height: 40px;
+}
+
+.navtools {
+  display: none;
+}
+
+.header:hover .navtools{
+  display: inline-block;
+  right: 0;
+  font-size: 25px;
+  padding: 10px 40px;
+  position: absolute;
+  color: #4a2570;
+  text-decoration: none;
+  height: 100%;
+  background-color: #964be3;
+  border-bottom: solid 5px #5d1aa1;
+  border-bottom-left-radius: 50px;
+
+}
+
+.header:hover .navtools:hover{
+  background-color: #5d1aa1;
+  color: white;
+}
+
+.cloud_one{
+  position: absolute;
+  height: 65px;
+  top: 50px;
+  right: 550px;
+}
+
+.cloud_two{
+  position: absolute;
+  height: 100px;
+  height: 50px;
+  left: 570px;
+}
+
+img .mountain{
+  height
+}
+
+.computer {
+  text-decoration: underline;
+}
+/*
+.header nav {
+  display: none;
+  text-decoration: none;
+}
+
+.header:hover nav{
+  display: inline-block;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+  color: #4a2570;
+  text-decoration: none;
+}
